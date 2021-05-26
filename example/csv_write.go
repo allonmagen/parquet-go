@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/xitongsys/parquet-go-source/local"
-	"github.com/allonmagen/parquet-go/writer"
+	"github.com/xitongsys/parquet-go/writer"
 )
 
 func main() {

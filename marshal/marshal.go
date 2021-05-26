@@ -5,11 +5,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/allonmagen/parquet-go/common"
-	"github.com/allonmagen/parquet-go/layout"
-	"github.com/allonmagen/parquet-go/parquet"
-	"github.com/allonmagen/parquet-go/schema"
-	"github.com/allonmagen/parquet-go/types"
+	"github.com/xitongsys/parquet-go/common"
+	"github.com/xitongsys/parquet-go/layout"
+	"github.com/xitongsys/parquet-go/parquet"
+	"github.com/xitongsys/parquet-go/schema"
+	"github.com/xitongsys/parquet-go/types"
 )
 
 type Node struct {
@@ -115,7 +115,6 @@ func (p *ParquetMapStruct) Marshal(node *Node, nodeBuf *NodeBufType) []*Node {
 		if newNode.Val.Type().Kind() == reflect.Interface {
 			newNode.Val = newNode.Val.Elem()
 		}
-
 		newNode.RL = node.RL
 		newNode.DL = node.DL
 		nodes = append(nodes, newNode)

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	. "github.com/allonmagen/parquet-go/schema"
+	. "github.com/xitongsys/parquet-go/schema"
 )
 
 type Student struct {

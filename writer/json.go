@@ -4,11 +4,11 @@ import (
 	"io"
 
 	"github.com/xitongsys/parquet-go-source/writerfile"
-	"github.com/allonmagen/parquet-go/layout"
-	"github.com/allonmagen/parquet-go/marshal"
-	"github.com/allonmagen/parquet-go/parquet"
-	"github.com/allonmagen/parquet-go/schema"
-	"github.com/allonmagen/parquet-go/source"
+	"github.com/xitongsys/parquet-go/layout"
+	"github.com/xitongsys/parquet-go/marshal"
+	"github.com/xitongsys/parquet-go/parquet"
+	"github.com/xitongsys/parquet-go/schema"
+	"github.com/xitongsys/parquet-go/source"
 )
 
 type JSONWriter struct {

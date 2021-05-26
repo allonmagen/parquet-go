@@ -4,9 +4,9 @@ import (
 	"log"
 
 	"github.com/xitongsys/parquet-go-source/local"
-	"github.com/allonmagen/parquet-go/parquet"
-	"github.com/allonmagen/parquet-go/reader"
-	"github.com/allonmagen/parquet-go/writer"
+	"github.com/xitongsys/parquet-go/parquet"
+	"github.com/xitongsys/parquet-go/reader"
+	"github.com/xitongsys/parquet-go/writer"
 )
 
 type NameString string
