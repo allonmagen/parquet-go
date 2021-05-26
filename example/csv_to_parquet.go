@@ -8,8 +8,8 @@ import (
 	"os"
 
 	"github.com/xitongsys/parquet-go-source/local"
-	"github.com/xitongsys/parquet-go/parquet"
-	"github.com/xitongsys/parquet-go/writer"
+	"github.com/allonmagen/parquet-go/parquet"
+	"github.com/allonmagen/parquet-go/writer"
 )
 
 type Shoe struct {

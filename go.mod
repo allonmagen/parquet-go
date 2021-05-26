@@ -12,5 +12,3 @@ require (
 	github.com/xitongsys/parquet-go-source v0.0.0-20200817004010-026bad9b25d0
 	golang.org/x/net v0.0.0-20201021035429-f5854403a974 // indirect
 )
-
-replace github.com/xitongsys/parquet-go => github.com/allonmagen/parquet-go v1.5.1

@@ -16,10 +16,10 @@ import (
 
 	"github.com/xitongsys/parquet-go-source/local"
 	"github.com/xitongsys/parquet-go-source/s3"
-	"github.com/xitongsys/parquet-go/reader"
-	"github.com/xitongsys/parquet-go/source"
-	"github.com/xitongsys/parquet-go/tool/parquet-tools/schematool"
-	"github.com/xitongsys/parquet-go/tool/parquet-tools/sizetool"
+	"github.com/allonmagen/parquet-go/reader"
+	"github.com/allonmagen/parquet-go/source"
+	"github.com/allonmagen/parquet-go/tool/parquet-tools/schematool"
+	"github.com/allonmagen/parquet-go/tool/parquet-tools/sizetool"
 )
 
 func main() {
