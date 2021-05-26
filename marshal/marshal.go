@@ -112,6 +112,10 @@ func (p *ParquetMapStruct) Marshal(node *Node, nodeBuf *NodeBufType) []*Node {
 		}
 
 		newNode.Val = node.Val.MapIndex(key)
+		if newNode.Val.Type().Kind() == reflect.Interface {
+			newNode.Val = newNode.Val.Elem()
+		}
+
 		newNode.RL = node.RL
 		newNode.DL = node.DL
 		nodes = append(nodes, newNode)
